@@ -4,8 +4,8 @@
  * Do not edit manually.
  *
  * Modules included by this file are: danish, dutch, english, finnish, french,
- * german, hungarian, italian, norwegian, porter, portuguese, romanian,
- * russian, spanish, swedish, turkish
+ * german, hungarian, italian, lithuanian, norwegian, porter, portuguese,
+ * romanian, russian, spanish, swedish, turkish
  */
 
 #include "stem_UTF_8_danish.h"
@@ -16,6 +16,7 @@
 #include "stem_UTF_8_german.h"
 #include "stem_UTF_8_hungarian.h"
 #include "stem_UTF_8_italian.h"
+#include "stem_UTF_8_lithuanian.h"
 #include "stem_UTF_8_norwegian.h"
 #include "stem_UTF_8_porter.h"
 #include "stem_UTF_8_portuguese.h"
@@ -74,6 +75,9 @@ static struct stemmer_modules modules[] = {
   {"it", ENC_UTF_8, italian_UTF_8_create_env, italian_UTF_8_close_env, italian_UTF_8_stem},
   {"ita", ENC_UTF_8, italian_UTF_8_create_env, italian_UTF_8_close_env, italian_UTF_8_stem},
   {"italian", ENC_UTF_8, italian_UTF_8_create_env, italian_UTF_8_close_env, italian_UTF_8_stem},
+  {"lit", ENC_UTF_8, lithuanian_UTF_8_create_env, lithuanian_UTF_8_close_env, lithuanian_UTF_8_stem},
+  {"lithuanian", ENC_UTF_8, lithuanian_UTF_8_create_env, lithuanian_UTF_8_close_env, lithuanian_UTF_8_stem},
+  {"lt", ENC_UTF_8, lithuanian_UTF_8_create_env, lithuanian_UTF_8_close_env, lithuanian_UTF_8_stem},
   {"nl", ENC_UTF_8, dutch_UTF_8_create_env, dutch_UTF_8_close_env, dutch_UTF_8_stem},
   {"nld", ENC_UTF_8, dutch_UTF_8_create_env, dutch_UTF_8_close_env, dutch_UTF_8_stem},
   {"no", ENC_UTF_8, norwegian_UTF_8_create_env, norwegian_UTF_8_close_env, norwegian_UTF_8_stem},
@@ -109,6 +113,7 @@ static const char * algorithm_names[] = {
   "german", 
   "hungarian", 
   "italian", 
+  "lithuanian", 
   "norwegian", 
   "porter", 
   "portuguese", 
