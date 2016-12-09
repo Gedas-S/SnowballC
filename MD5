@@ -25,8 +25,8 @@ bc9bc7d0c66b35b206f49abf03fd34a8 *man/getStemLanguages.Rd
 dbe979b6c7afff84c3b02353814c60e5 *src/api.c
 537bf92543ec6fef985153f572d5fa4f *src/api.h
 8106519d92560ea7fff2f7d6c7b3d2db *src/header.h
+864fe8caaa982e414131defc3e2d95b7 *src/libstemmer.c
 96ecb4ad6fd2779eec0b23d21e6433db *src/libstemmer.h
-864fe8caaa982e414131defc3e2d95b7 *src/libstemmer_utf8.c
 e117c185415533e0024faa3a7ff69a15 *src/modules_utf8.h
 1ae303f53388af2040304e33808179ad *src/stem.c
 421eecb7b1528947fb6054591723d282 *src/stem_UTF_8_danish.c
@@ -45,7 +45,7 @@ fe2fec068b53f8496a9843149193adea *src/stem_UTF_8_german.h
 e1ff24215a211fe47b2b86f438780b39 *src/stem_UTF_8_hungarian.h
 69d41820471208e78dc58e4751879f9e *src/stem_UTF_8_italian.c
 c3126f16cbcf41b6d602f07e5e7840e5 *src/stem_UTF_8_italian.h
-54bf60799b929020d93241b390ec518f *src/stem_UTF_8_lithuanian.c
+caf52896830b89ec8981d21e7cff17f6 *src/stem_UTF_8_lithuanian.c
 f0064a6e5fe97dcbb67d151a4f34c37b *src/stem_UTF_8_lithuanian.h
 f1c9a16a96bcaa270e34b193b79e3edd *src/stem_UTF_8_norwegian.c
 e3fd2426d2b7f6d6eb73954269da3c8f *src/stem_UTF_8_norwegian.h

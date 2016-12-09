@@ -1,8 +1,15 @@
 
 /* This file was generated automatically by the Snowball to ANSI C compiler */
 
-#include "../runtime/header.h"
+#include "header.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+extern int lithuanian_UTF_8_stem(struct SN_env * z);
+#ifdef __cplusplus
+}
+#endif
 static int r_fix_conflicts(struct SN_env * z);
 static int r_fix_gd(struct SN_env * z);
 static int r_fix_chdz(struct SN_env * z);
